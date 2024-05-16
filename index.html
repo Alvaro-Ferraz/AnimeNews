@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>YOMA</title>
+    <!--Script para o menu em mobile-->
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector(".menu_mobile").addEventListener("click", function() {
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex'
+                }
+            })
+        }
+        window.alert('Este site é apenas uma aplicação dos meus estudos recentes.')
+    </script>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                    <a href=""><img src="assets/imagens/galaxia-espiral.png" alt=""></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menu_mobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+            <!--Primeiros textos e imagens-->
+    <section id="banner">
+            <div class="container column">
+                <div class="banner_headline">
+                    <h1>Animes News</h1>
+                    <h2>Fique por dentro de todas as novidades desse maravilhoso mundo!</h2>
+                </div>
+                <!--Banner coloridos-->
+                <div class="banner_options">
+                    <div class="banner1">
+                        <div class="banner_title">Temporada</div>
+                        <div class="banner_desc">
+                            Algum texto
+                        </div>
+                        <a href="">Read more</a>
+                    </div>
+                    <div class="banner2">
+                        <div class="banner_title">Mangas e novels</div>
+                        <div class="banner_desc">
+                            Algum texto
+                        </div>
+                        <a href="">Read more</a>
+                    </div>
+                    <div class="banner3">
+                        <div class="banner_title">
+                            Horarios
+                        </div>
+                        <div class="banner_desc">
+                            <div class="hours">
+                                <span>Monday - Friday</span> 
+                                <span>8:00 - 17:00</span>
+                            </div>
+                            <div class="hours">
+                                <span>Saturday</span> 
+                                <span>9:00 - 17:30</span>
+                            </div>
+                            <div class="hours">
+                                <span>Sunday</span> 
+                                <span>9:30 - 15:00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">News</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body flex">
+                        
+                        <article>
+                            <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at">12 dec 12</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div class="news_thumb">
+                                <img src="https://www.intoxianime.com/wp-content/uploads/2024/03/Capa-post-520x245.jpg" alt="">
+                            </div>
+                            <div class="news_title">
+                                Guia de Novos Animes de Abril 2024
+                            </div>
+                            <div class="news_resume">
+                                Um guia  com os novos animes da Temporada de Abril (Primavera/Spring) 2024 comentados. Novas informações, novos animes junto com o...
+                            </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at">12 dec 12</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div class="news_thumb">
+                                <img src="https://www.intoxianime.com/wp-content/uploads/2023/11/81FoJAa2vJL-tile-520x245.jpg" alt="">
+                            </div>
+                            <div class="news_title">
+                                Melhores Promoções de Mangás e Novels na Black Friday!
+                            </div>
+                            <div class="news_resume">
+                                Lista de mangás BR na Amazon com descontos muito bons na BlackFriday! As ofertas estão variando de 30 a 70%...
+                            </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at">12 dec 12</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div class="news_thumb">
+                                <img src="https://www.intoxianime.com/wp-content/uploads/2024/05/Kagurabachi-tile-520x245.jpg" alt="">
+                            </div>
+                            <div class="news_title">
+                                Mangás mais Vendidos (Abril 29 – Maio 05)
+                            </div>
+                            <div class="news_resume">
+                                Semana com algumas estreias interessantes, com novos volumes para World Trigger, Boruto Two Blue Vortex, Kagurabachi, Kamen Rider w Fuuto...
+                            </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                            <div class="news_data">
+                                <div class="news_posted_at">12 dec 12</div>
+                                <div class="news_comments">2</div>
+                            </div>
+                            <div class="news_thumb">
+                                <img src="https://www.intoxianime.com/wp-content/uploads/2023/03/blue-lock-yoichi-520x245.jpg" alt="">
+                            </div>
+                            <div class="news_title">
+                                Blue Lock – 2º temporada ganha ilustração especial e sai em outubro
+                            </div>
+                            <div class="news_resume">
+                                O site oficial da adaptação em anime de Blue Lock revelou que a 2º temporada da obra irá estrear na...
+                            </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">Animes</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        <div class="animes_temp">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text">More</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body-appointment">
+                        <div class="appointment_desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit.</p>
+                            <span class="number">by phone: <strong>0000-000-00</strong> </span> <br>
+                            <span class="email">by e-mail: <a href="">alvaro.ferrazdcruz@gmail.com</a> </span> <br>
+                            <span class="document">Aqui era pra ter mais alguma coisa</span>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container flexColumn">
+            <div class="footer_menu">
+                <div class="fm_1">
+                    <a href="">
+                        <p class="footer_contato">Contato</p>
+                        <p class="footer_contato_desc">Informações de contato pessoal </p>
+                    </a>
+                </div>
+                <div class="fm_2">
+                    <a href="">
+                        <p class="footer_contato">Visão</p>
+                        <p class="footer_contato_desc">Visões do nosso site </p>
+                    </a>
+                </div>
+                <div class="fm_3">
+                    <a href="">
+                        <p class="footer_contato">More</p>
+                        <p class="footer_contato_desc">More</p>
+                    </a>
+                </div>
+            </div>
+            <div class="footer_area">
+                <div class="footer_areaitem">
+                    <div class="widget_title">
+                        <div class="footer_title_text">Yoma</div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <h3>Venha nos conhecer</h3>
+                    <div class="address">
+                        <span>Yoma Nime</span>  
+                    </div>
+                    <div class="address">
+                        <span>33 Earlane Street</span>
+                        <span>+123 656 655</span>
+                    </div>
+                    <div class="address">
+                        <span>Keilor East</span>
+                        <span>+123 755 755</span>
+                    </div>
+                    <div class="address">
+                        <span>VIC 3033, Australia</span>
+                        <span><a href="">yomanime@mail.com</a></span>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget_title">
+                        <div class="footer_title_text">Visões</div>
+                        <div class="widget_title_bar_footer"></div>
+                        <div class="widget_body_post_title">
+                            Mauris adipisicing mauris fringilla turpis interdum pulvinar nisi malesuada.
+                        </div>
+                        <div class="widget_body_years">
+                            6 years
+                        </div>
+                        <div class="widget_body_post_title">
+                            Mauris adipisicing mauris fringilla turpis interdum pulvinar nisi malesuada.
+                        </div>
+                        <div class="widget_body_years">
+                            6 years
+                        </div>
+                        <div class="widget_body_post_title">
+                            Mauris adipisicing mauris fringilla turpis interdum pulvinar nisi malesuada.
+                        </div>
+                        <div class="widget_body_years">
+                            6 years
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget_title">
+                        <div class="footer_title_text">More</div>
+                        <div class="widget_title_bar_footer"></div>
+                        <div class="widget_body_tweet_title">
+                            Mauris adipisicing mauris fringilla turpis interdum pulvinar nisi malesuada.
+                        </div>
+                        <div class="widget_body_years">
+                            6 years
+                        </div>
+                        <div class="widget_body_tweet_title">
+                            Mauris adipisicing mauris fringilla turpis interdum pulvinar nisi malesuada.
+                        </div>
+                        <div class="widget_body_years">
+                            6 years
+                        </div>
+                        <div class="widget_body_tweet_title">
+                            Mauris adipisicing mauris fringilla turpis interdum pulvinar nisi malesuada.
+                        </div>
+                        <div class="widget_body_years">
+                            6 years
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
